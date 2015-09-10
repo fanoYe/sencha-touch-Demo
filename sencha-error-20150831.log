@@ -1,0 +1,111 @@
+Sencha Cmd 6.0.0.202 - Crash report
+================================================
+An error occurred while executing the following command: -port web start
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : D:\fang\myApp                                     
+                           app.build.dir : D:\fang\myApp/build/MyApp                         
+                           app.classpath : D:\fang\myApp/app.js,D:\fang\myApp/app            
+                         app.cmd.version : 6.0.0.202                                         
+                          app.config.dir : D:\fang\myApp\.sencha\app                         
+                   app.cordova.config.id : com.domain.MyApp                                  
+                 app.cordova.config.name : MyApp                                             
+                 app.cordova.config.path : D:\fang\myApp/cordova                             
+               app.cordova.config.target :                                                   
+              app.cordova.config.verbose : false                                             
+                   app.cordova.js.0.path : cordova.js                                        
+               app.cordova.js.0.priority : 1000                                              
+                 app.cordova.js.0.remote : true                                              
+                   app.cordova.js.length : 1                                                 
+                 app.cordova.microloader : D:\fang\myApp\.sencha\app/microloader/testing.js  
+                 app.cordova.output.base : D:\fang\myApp/cordova/www                         
+         app.cordova.output.cache.enable : false                                             
+        app.cordova.output.deltas.enable : false                                             
+       app.cordova.output.manifest.embed : true                                              
+                                 app.dir : D:\fang\myApp                                     
+                           app.framework : touch                                             
+                   app.framework.version : 2.4.2.571                                         
+                                  app.id : 65697426-e203-4e28-8f70-aa54d953c389              
+                       app.indexHtmlPath : index.html                                        
+                                app.name : MyApp                                             
+                         app.output.base : D:\fang\myApp/build/${build.environment}/MyApp    
+           app.output.microloader.enable : true                                              
+                  app.phonegap.config.id : com.domain.MyApp                                  
+                app.phonegap.config.name : MyApp                                             
+                app.phonegap.config.path : D:\fang\myApp/phonegap                            
+              app.phonegap.config.remote : false                                             
+             app.phonegap.config.verbose : false                                             
+                  app.phonegap.js.0.path : phonegap.js                                       
+              app.phonegap.js.0.priority : 1000                                              
+                app.phonegap.js.0.remote : true                                              
+                  app.phonegap.js.length : 1                                                 
+                app.phonegap.microloader : D:\fang\myApp\.sencha\app/microloader/testing.js  
+                app.phonegap.output.base : D:\fang\myApp/phonegap/www                        
+        app.phonegap.output.cache.enable : false                                             
+       app.phonegap.output.deltas.enable : false                                             
+      app.phonegap.output.manifest.embed : true                                              
+                      app.requires.names :                                                   
+                   app.requires.packages :                                                   
+                      app.resource.paths :                                                   
+        app.slicer.js.0.isWidgetManifest : true                                              
+                    app.slicer.js.0.path : D:\fang\myApp/sass/example/custom.js              
+                    app.slicer.js.length : 1                                                 
+                    buildenvironment.dir : D:\fang\myApp                                     
+               buildenvironment.load.dir : D:\fang\myApp                                     
+                          cmd.config.dir : C:\Users\fang.ye\bin\Sencha\Cmd\6.0.0.202         
+                                 cmd.dir : C:\Users\fang.ye\bin\Sencha\Cmd\6.0.0.202         
+                    cmd.framework.minver : 2.2.0                                             
+                   cmd.framework.version : 2.99.99.99999                                     
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : windows                                           
+                         cmd.server.port : 1841                                              
+                     cmd.unicode.escapes : C:\Users\fang.ye\bin\Sencha\Cmd\6.0.0.202/unicode-escapes.json
+                             cmd.version : 6.0.0.202                                         
+                            cmd.web.port : 1841                                              
+                      config.skipInherit : false                                             
+                     framework.classpath : D:\fang\myApp\touch/src                           
+                    framework.cmd.minver : 3.1.0.53                                          
+                   framework.cmd.version : 4.0.5.87                                          
+                    framework.config.dir : C:\Users\fang.ye\bin\Sencha\Cmd\6.0.0.202\plugins\touch\2.3
+                           framework.dir : D:\fang\myApp\touch                               
+                       framework.ignores : src/locale,src/platform,auth2/Auth.js,scroller/Infinite.js
+                          framework.name : touch                                             
+                  framework.packages.dir : D:\fang\myApp\touch/packages                      
+             framework.preprocessor.opts : charts:no                                         
+                       framework.version : 2.4.2.571                                         
+                          repo.local.dir : C:\Users\fang.ye\bin\Sencha\Cmd\repo              
+        system.java.net.useSystemProxies : true                                              
+                               touch.dir : D:\fang\myApp/touch                               
+                     workspace.build.dir : D:\fang\myApp/build                               
+                   workspace.cmd.version : 6.0.0.202                                         
+                    workspace.config.dir : D:\fang\myApp\.sencha\workspace                   
+                           workspace.dir : D:\fang\myApp                                     
+                  workspace.packages.dir : D:\fang\myApp/packages/local,D:\fang\myApp/packages
+              workspace.packages.extract : D:\fang\myApp/packages/remote                     
+                     workspace.theme.dir : D:\fang\myApp/packages/local,D:\fang\myApp/packages/${args.themeName}
+
+Exception information:
+=======================
+No such property : port
+     at com.sencha.cli.AbstractCommand$Properties.getProperty(AbstractCommand.java:441)
+     at com.sencha.cli.AbstractCommand.parseConfigParam(AbstractCommand.java:465)
+     at com.sencha.cli.AbstractCommand.processConfigParam(AbstractCommand.java:515)
+     at com.sencha.cli.AbstractCommand.configure(AbstractCommand.java:114)
+     at com.sencha.command.Sencha.main(Sencha.java:129)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+     at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+

@@ -1,0 +1,32 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+//@import 'sencha-touch/cupertino';
+//@import 'sencha-touch/cupertino/all';
+
+//@import 'sencha-touch/mountainview';
+//@import 'sencha-touch/mountainview/all';
+
+.x-title .x-innerhtml {
+  color:red !important;
+}
+
+.icon-home {
+  background: url("image/bag.png") no-repeat;
+}
+
+/*.icon-home, .icon-user, .icon-info, .icon-setting {
+  width: 24px !important;
+  height: 24px !important;
+}*/
+
+//@import 'sencha-touch/bb10';
+//@import 'sencha-touch/bb10/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');

@@ -1,0 +1,38 @@
+.panel-header{
+    background-color: #005c9d;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.panel-bottom{
+    background-color:#005c9d;
+    padding:13px;
+    font-size:1.5em;
+    color: #ffffff;
+}
+.order-Btn{
+    margin: 15px;
+    padding:8px !important;
+    width:100px;
+}
+.red-line{
+    border-bottom:4px solid red;
+    color:red !important;
+}
+.loginAccountImg{
+    background: url("../image/account.png") no-repeat;
+    background-color: #ffffff !important;
+    margin-top:16px;
+    margin-left:15px;
+    height: 20px !important;
+}
+.loginPwdImg{
+    background: url("../image/pwd.png") no-repeat;
+    background-color: #ffffff !important;
+    margin-top:17px;
+    margin-left:15px;
+    height: 20px !important;
+}
+
+
